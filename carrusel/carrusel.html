@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Carrusel</title>
+ <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/carrusel.css" rel="stylesheet" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico|Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    
+
+
+</head>
+<body style="background-color: #444242;">
+
+
+<div class="container">
+ 
+
+  <!-- <div class="slider">
+    <div> <img  src="img/frezie.jpg" /></div>
+    <div> <img  src="img/candado.jpg" /></div>
+    <div> <img  src="img/candado.jpg" /></div>
+    <div> <img  src="img/candado.jpg" /></div>
+    <div> <img  src="img/tablet.jpg" /></div>
+    <div> <img  src="img/plumas.jpg" /></div>
+
+  </div> -->
+
+  <div class="col-lg-12 " style="width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+   /* box-shadow: 1px 1px 4px #666;
+    background-image: url(img/picasion.gif);
+    background-size: cover;
+    background-repeat: no-repeat;*/
+   background-position: bottom;">
+
+   <div class="carrusel">
+	   	<img id="img1" class="imagen" src="img/bombilla.jpg"/>
+	   	<img id="img2" class="imagen" src="img/candado.jpg"/>
+	   	<img id="img3" class="imagen imagenPrev" src="img/frezie.jpg"/>
+	   	<img id="img4" class="imagen" src="img/imagen.jpg"/>
+	   	<img id="img5" class="imagen" src="img/orquidea.jpg"/>
+	   	<img id="img6" class="imagen" src="img/picasion.gif"/>
+	   	<img id="img7" class="imagen" src="img/plumas.jpg"/>
+   </div>
+ <!-- .carrusel -->
+   
+   <div class="">
+	    <div class="bolitas-radio">
+				  <input checked type=radio name="slider" id="slide1"/>
+				  <input type=radio name="slider" id="slide2" />
+				  <input type=radio name="slider" onclick="imgClick3()" id="slide3" />
+				  <input type=radio name="slider" id="slide4" />
+				  <input type=radio name="slider" id="slide5" />
+				  <input type=radio name="slider" id="slide6"/>
+				   <input type=radio name="slider" id="slide7"/>
+			</div>
+	</div>
+
+
+     <div class="prew flecha">></div>
+     <div class="forw flecha"><</div>
+    <!-- .bolitas -->
+
+  </div>
+  <!-- .slider-wrapper -->
+
+ 
+  <div class="slider-prev-next-control">
+    <label for=slide1></label>
+    <label for=slide2></label>
+    <label for=slide3></label>
+    <label for=slide4></label>
+    <label for=slide5></label>
+  </div>
+  <!-- .slider-prev-next-control -->
+
+  <div class="slider-dot-control">
+    <label for=slide1></label>
+    <label for=slide2></label>
+    <label for=slide3></label>
+    <label for=slide4></label>
+    <label for=slide5></label>
+  </div>
+  <!-- .slider-dot-control -->
+</div>
+
+
+<!-- <div class="bootom-rdio">
+ <input checked type=radio name="slider" id="slide1" />
+  <input type=radio name="slider" id="slide2" />
+  <input type=radio name="slider" id="slide3" />
+  <input type=radio name="slider" id="slide4" />
+  <input type=radio name="slider" id="slide5" />
+</div> -->
+
+
+
+
+<script type="text/javascript" src="js/carrusel.js"></script>
+</body>
+</html>
