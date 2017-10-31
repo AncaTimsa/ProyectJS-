@@ -1,0 +1,181 @@
+
+ @keyframes example {
+    0%   {  left:-800px; top:0px;}
+    25%  {  left:-600px; top:0px;}
+    50%  { left:-200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+}
+
+@keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+
+ @keyframes estrella {
+ 	0% {width: 0px; left: 25px;}
+ 	10% {width: 10px; left: 125px;}
+ 	30% {width: 20px;  left: 350px;}
+ 	50% {width: 30px;  left: 600px;}
+ 	80% {width: 20px; left: 800px;}
+ 	100% {width: 30px;  left: 1050px;}
+ }
+
+ @keyframes estrella2 {
+ 	0% {width: 0px; height: 10px; left: 25px;}
+ 	10% {width: 10px; height: 20px; left: 65px;}
+ 	30% {width: 20px; height: 27px; left: 105px;}
+ 	50% {width: 30px; height: 27px; left: 200px;}
+ 	80% {width: 20px; height: 20px; left: 300px;}
+ 	100% {width: 30px; height: 10px; left: 500px;}
+ }
+body{
+ 
+}
+#section1 div{
+  background-image: url(img/Cielo-Estrellado-fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    /* -webkit-animation-name: estrella; 
+    -webkit-animation-duration: 4s; 
+    animation-name: estrella;*/
+   
+
+}
+.datos{
+   position: absolute;
+    top: 466px;
+    text-align: center;
+    left: 320px;
+    background: #d5d2d2;
+}
+.imgDatos img{
+	width: 100%;
+}
+.datosPersonales{
+	top: 67PX;
+}
+.contPrimcipal{
+    position: absolute;
+    top: 721px;
+    left: 200px;
+    background: #fff;
+}
+p{
+  color: #85919d;
+}
+h2{
+  margin-top: 10px;
+}
+  #section1 {
+  padding-top: 50px;
+    height: 720px;
+    color: #776f6f;
+    background-image: url(../img/Cielo-Estrellado-fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .esterella{
+  	    border-radius: 50%;
+    width: 20px;
+    left: 30px;
+    height: 11px;
+    position: absolute;
+    -webkit-animation-name: estrella;
+    -webkit-animation-duration: 5s;
+    animation-name: estrella;
+    animation-duration: 5s;
+    transform: rotateZ(60deg);
+    box-shadow: -15px 0px 14px #f9f2f2;
+    /* transform: skew(70deg); */
+    transform: skew(60deg) scale(1.2,1.2) rotate(60deg) translate(64px, 22px);
+    animation-duration: 6s linear infinite alternate forwards
+  }
+  .estrella2{
+  	width: 30px;
+    height: 27px;
+    position: absolute;
+     -webkit-animation-name: flipInX; 
+    -webkit-animation-duration: 5s; 
+    animation-name: flipInX;
+    animation-duration: 5s;
+    transform: rotate(60deg);
+     box-shadow: 1px 1px 10px #222;
+  }
+  .section{
+    margin-bottom: 20px;
+    height: 200px;
+  	
+  }
+  .verSection2{
+    -webkit-animation-name: bounce; 
+    -webkit-animation-duration: 5s; 
+    animation-name: bounce;
+    animation-duration: 5s;
+   /* transform: rotate(60deg);*/
+    
+  }
+  .section2-3 {
+    padding-top: 5px;
+  }
+  .verSection2-3{
+  	right: 0px;
+  }
+  .noVerSection{
+  	background-color: #197fd8;
+    left: 0px;
+    /*position: absolute;*/
+    top: 50px;
+  }
+#section2, #section3, #section4, #section4-1{
+	margin-top: 50px;
+}
+
+.ciclo{
+    background: url(../img/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -115px;
+    text-align: center;
+    transition: 2s all;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 2px;
+    /*border: 1px solid;*/
+    height: 15px;
+    margin-bottom: 12px;
+    -webkit-animation-name: bounce; 
+    -webkit-animation-duration: 5s; 
+    animation-name: bounce;
+    animation-duration: 5s;
+    box-shadow: 1px 1px 10px #c3bebe;
+  animation-direction:normal;
+}
+
+.bold{
+  font-weight: 800;
+}
+.bold:hover{
+  cursor: pointer;
+  opacity: .5;
+}
+.footer{
+  
+  width: 100%;
+  background: #faf7f7;
+      position: fixed;
+    bottom: 0px;
+}
