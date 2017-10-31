@@ -37,3 +37,12 @@ function imgClick3(){
 };
 
 
+$(document).ready(function(){
+          $(document).on('click','elemento',function(){
+                
+             
+
+
+
+             });
+        });

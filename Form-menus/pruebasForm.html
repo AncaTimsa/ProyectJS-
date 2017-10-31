@@ -1,206 +1,140 @@
-
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link href="styles/style.css" rel="stylesheet" type="text/css"/> -->
-    <link href="css/js.css" rel="stylesheet" type="text/css"/>
-    
-
+   <head>
+      <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- <link href="styles/style.css" rel="stylesheet" type="text/css"/> -->
+      <link href="css/js.css" rel="stylesheet" type="text/css"/>
       <link href='https://fonts.googleapis.com/css?family=Pacifico|Amatic+SC:400,700' rel='stylesheet' type='text/css'>
-       <!--  <link href="fonts/main.css" rel="stylesheet" type="text/css"/> -->
-    
-
-    <title></title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-   <!--  <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
-
-    <!-- <link rel="stylesheet" href="css/lightbox.css" > -->
-   <!--  <link rel="stylesheet" href="style.css"> -->
-    
-   
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-  </head>
-  
-
-
-
-<body>
-<header>
-<div class="col-lg-12">
-<div class="col-lg-8">
-  <nav class="container " class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-    <ul>
-      <li><a class="empresas" href="">Empresas</a>
-        <ul class="subMenu1">
-            <li><a href="">Empresa1</a></li>
-            <li><a href="">Empresa2</a></li>
-            <li><a href="">Empresa3</a></li>
-        </ul>
-      </li>
-
-      <li><a class="contacto " href="">Contacto</a>
-          <ul class="subMenu2">
-              <li><a href="">Contacto1</a></li>
-              <li><a href="">Contacto2</a></li>
-              <li><a href="">Contacto3</a></li>
-        </ul>
-      </li>
-
-      <li><a class="nosotros" href="">Sobre nosotros</a>
-           <ul class="subMenu3">
-              <li><a href="">Nosotros1</a></li>
-              <li><a href="">Nosotros2</a></li>
-              <li><a href="">Nosotros3</a></li>
-        </ul>
-      </li>
-
-      <li><a  class="trabajos" href="">Trabajos</a>
-           <ul class="subMenu4">
-              <li><a href="">Trabajos1</a></li>
-              <li><a href="">Trabajos2</a></li>
-              <li><a href="">Trabajos3</a></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
-</div>
-
-
-
-
-<div class="col-lg-3">
-<div class="menuLateral">
-<div class="cerrar">
-      <img src="img/cerrar.png">
-         <!--  <p>X</p> -->
-
-</div>
-  <nav  class="" role="menu" aria-labelledby="dropdownMenu1">
-    <ul>
-      <li><a class="empResas" href="">Empresas</a>
-        <ul class="menuLateral1">
-            <li><a href="">Empresa1</a></li>
-            <li><a href="">Empresa2</a></li>
-            <li><a href="">Empresa3</a></li>
-        </ul>
-      </li>
-
-      <li><a class="conTacto " href="">Contacto</a>
-          <ul class="menuLateral2">
-              <li><a href="">Contacto1</a></li>
-              <li><a href="">Contacto2</a></li>
-              <li><a href="">Contacto3</a></li>
-        </ul>
-      </li>
-
-      <li><a class="nosoTros" href="">Sobre nosotros</a>
-           <ul class="menuLateral3">
-              <li><a href="">Nosotros1</a></li>
-              <li><a href="">Nosotros2</a></li>
-              <li><a href="">Nosotros3</a></li>
-        </ul>
-      </li>
-
-      <li><a  class="traBajos" href="">Trabajos</a>
-           <ul class="menuLateral4">
-              <li><a href="">Trabajos1</a></li>
-              <li><a href="">Trabajos2</a></li>
-              <li><a href="">Trabajos3</a></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
-</div>
-</div>
-
-
-<div class="abrrir">
-<img src="img/abrir.png">
-  <!-- <p>☰</p> -->
-</div>
-
-
-</div>
-	
-</header>
-
-<div class="container">
-   
-   <h1 class="text-center">Form</h1>
-	<div class="col-md-4">
-
-    <div class="form-group">
-      <label for="username">Username:</label>
-      <label>(Debe tener mínimo 5 caracteres, con letras y números):</label>
-      <input id="username" type="text" value="" class="form-control email" style="background-color:#ddd;" placeholder="">
-    </div>
-
-    <div id="msg_validation1"></div>
-
-    <div class="form-group">
-      <label for="phone">Phone:</label>
-      <input  type="text" value="" class="form-control email" style="background-color:#ddd;" placeholder="">
-       <div id="msg_validationPhone"></div>
-    </div>
-
-    
-
-		 <div class="form-group">
-      <label for="email">Email:</label>
-      <input  type="email" value="" class="form-control" id="email" style="background-color:#ddd;" placeholder="">
-    </div>
-        <div id="msg_validation2"></div>
-
-    <div class="form-group">
-      <label for="pwd">Pasword:</label>
-      <input type="password" id="pw" class="form-control pasword" va style="background-color:#ddd;" placeholder="">
-
-       
-       <input type="submit" class="buttom" id="sendForm" value="Enviar este formulario" />
-    </div>
-     
-
-     
-    <div class="form-group">
-      <label for="pwd">Pasword:</label>
-      <input type="password" id="pw" class="form-control pasword" va style="background-color:#ddd;" placeholder="">
-
-       
-       <input type="submit" class="buttom" id="sendForm" value="Enviar este formulario" />
-    </div>
-	</div>
-
-</div>
-   
-
-<script type="text/javascript" src="js/jscript.js"></script>
-
-</body>
+      <!--  <link href="fonts/main.css" rel="stylesheet" type="text/css"/> -->
+      <title></title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <!--  <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+      <!-- <link rel="stylesheet" href="css/lightbox.css" > -->
+      <!--  <link rel="stylesheet" href="style.css"> -->
+      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   </head>
+   <body>
+      <header>
+         <div class="col-lg-12">
+            <div class="col-lg-8">
+               <nav class="container " class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                  <ul>
+                     <li>
+                        <a class="empresas" href="">Empresas</a>
+                        <ul class="subMenu1">
+                           <li><a href="">Empresa1</a></li>
+                           <li><a href="">Empresa2</a></li>
+                           <li><a href="">Empresa3</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a class="contacto " href="">Contacto</a>
+                        <ul class="subMenu2">
+                           <li><a href="">Contacto1</a></li>
+                           <li><a href="">Contacto2</a></li>
+                           <li><a href="">Contacto3</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a class="nosotros" href="">Sobre nosotros</a>
+                        <ul class="subMenu3">
+                           <li><a href="">Nosotros1</a></li>
+                           <li><a href="">Nosotros2</a></li>
+                           <li><a href="">Nosotros3</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a  class="trabajos" href="">Trabajos</a>
+                        <ul class="subMenu4">
+                           <li><a href="">Trabajos1</a></li>
+                           <li><a href="">Trabajos2</a></li>
+                           <li><a href="">Trabajos3</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+            <div class="col-lg-3">
+               <div class="menuLateral">
+                  <div class="cerrar">
+                     <img src="img/cerrar.png">
+                     <!--  <p>X</p> -->
+                  </div>
+                  <nav  class="" role="menu" aria-labelledby="dropdownMenu1">
+                     <ul>
+                        <li>
+                           <a class="empResas" href="">Empresas</a>
+                           <ul class="menuLateral1">
+                              <li><a href="">Empresa1</a></li>
+                              <li><a href="">Empresa2</a></li>
+                              <li><a href="">Empresa3</a></li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a class="conTacto " href="">Contacto</a>
+                           <ul class="menuLateral2">
+                              <li><a href="">Contacto1</a></li>
+                              <li><a href="">Contacto2</a></li>
+                              <li><a href="">Contacto3</a></li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a class="nosoTros" href="">Sobre nosotros</a>
+                           <ul class="menuLateral3">
+                              <li><a href="">Nosotros1</a></li>
+                              <li><a href="">Nosotros2</a></li>
+                              <li><a href="">Nosotros3</a></li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a  class="traBajos" href="">Trabajos</a>
+                           <ul class="menuLateral4">
+                              <li><a href="">Trabajos1</a></li>
+                              <li><a href="">Trabajos2</a></li>
+                              <li><a href="">Trabajos3</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+            <div class="abrrir">
+               <img src="img/abrir.png">
+               <!-- <p>☰</p> -->
+            </div>
+         </div>
+      </header>
+      <div class="container">
+         <h1 class="text-center">Form</h1>
+         <div class="col-md-4">
+            <div class="form-group">
+               <label for="username">Username:</label>
+               <label>(Debe tener mínimo 5 caracteres, con letras y números):</label>
+               <input id="username" type="text" value="" class="form-control email" style="background-color:#ddd;" placeholder="">
+            </div>
+            <div id="msg_validation1"></div>
+            <div class="form-group">
+               <label for="phone">Phone:</label>
+               <input  type="text"  maxlength="9" value="" class="form-control email" style="background-color:#ddd;" placeholder="">
+               <div id="msg_validationPhone"></div>
+            </div>
+            <div class="form-group">
+               <label for="email">Email:</label>
+               <input  type="email" value="" class="form-control" id="email" style="background-color:#ddd;" placeholder="">
+            </div>
+            <div id="msg_validation2"></div>
+            
+            <div class="form-group">
+               <label for="pwd">Pasword:</label>
+               <input type="password" id="pw" class="form-control pasword" va style="background-color:#ddd;" placeholder="">
+               <input type="submit" class="buttom" id="sendForm" value="Enviar este formulario" />
+            </div>
+           
+         </div>
+      </div>
+      <script type="text/javascript" src="js/jscript.js"></script>
+   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

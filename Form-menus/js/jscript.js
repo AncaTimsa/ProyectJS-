@@ -10,11 +10,13 @@ $(document).ready(function(){
 		var isValid;
 		var has_letters;
 		var has_numbers;
+		var a = parseInt("9")
 		var numeros = Number.isInteger("9");
 		size_correct = true;
 
-		phoneNumber = numberPhone.match(/[1-9]/i);
+		// phoneNumber = numberPhone.match(/[1-9]/i);
 
+            // numberPhone = a;
 		var size = name.length;
 
 		if ( size >= 5){
@@ -28,14 +30,15 @@ $(document).ready(function(){
 		}
 		
 
-		if ( phoneNumber == 9) {
-			has_numbers = true;
-			$("#msg_validationPhone").html("El numero no es valido");
-			console.log(numeros + " no_numbers")
-		} else {
+		if ( numberPhone == a) {
 			has_numbers = false;
+			$("#msg_validationPhone").html("El numero no es valido");
+			console.log(a + " no_numbers")
+		} else {
+			has_numbers = true;
 			$("#msg_validationPhone").html("");
-			console.log(has_numbers + " tiene_numbers")
+			console.log(a + " tiene_numbers")
+			
 		}
 
 
