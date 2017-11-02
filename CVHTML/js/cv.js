@@ -18,6 +18,194 @@ $(document).ready(function(){
 				console.log( top + " :scrollTop :top");
 
 		               });
+
+
+
+			//    	$( ".html" ).mouseenter(function() {
+			// 		 // $(this).animate({"padding-right":"15px"},100);
+			// 	     $(".ciclo").animate({"background-size":"115px"},100);
+			// 	     console.log("background-size")
+			// });
+
+			//    	$( ".html" ).mouseleave(function() {
+			// 		 // $(this).animate({"padding-right":"0px"}, 100);
+			// 	     $(".ciclo").animate({"background-size":"-115px"},100);
+			// 	     console.log("background-size")
+			// });
+             
+					var i =0;
+			    $( ".html" )
+					  .mouseover(function() {
+					    $( ".cicloHtml" ).animate({"background-position": "0px"},100 );
+					     $( this ).css({"padding-left": "10px"},100 );
+
+					  })
+					  .mouseout(function() {
+					   $( ".cicloHtml" ).animate({"background-position": "-65px"},100);
+					   $( ".paddingHover" ).css({"padding-left": "0px"},100 );
+					    // $( ".ciclo" ).text( ++i );
+					  });
+
+
+				 $( ".ccs" )
+					  .mouseover(function() {
+					    $( ".cicloCCS" ).animate({"background-position": "0px"},100 );
+					  })
+					  .mouseout(function() {
+					   $( ".cicloCCS" ).animate({"background-position": "-65px"},100);
+					    // $( ".ciclo" ).text( ++i );
+					  });
+
+
+				 $( ".js" )
+					  .mouseover(function() {
+					    $( ".cicloJs" ).animate({"background-position": "0px"},100 );
+					  })
+					  .mouseout(function() {
+					   $( ".cicloJs" ).animate({"background-position": "-65px"},100);
+					    // $( ".ciclo" ).text( ++i );
+					  });
+
+			     $( ".boot" )
+					  .mouseover(function() {
+					    $( ".cicloBoot" ).animate({"background-position": "0px"},100 );
+					  })
+					  .mouseout(function() {
+					   $( ".cicloBoot" ).animate({"background-position": "-65px"},100);
+					    // $( ".ciclo" ).text( ++i );
+					  });
+
+				$( ".jQ" )
+					  .mouseover(function() {
+					    $( ".ciclojQuery" ).animate({"background-position": "0px"},100 );
+					  })
+					  .mouseout(function() {
+					   $( ".ciclojQuery" ).animate({"background-position": "-65px"},100);
+					    // $( ".ciclo" ).text( ++i );
+					  });
+
+				$( ".subLine" )
+					  .mouseover(function() {
+					    $( ".ciclosubLine" ).animate({"background-position": "0px"},100 );
+					  })
+					  .mouseout(function() {
+					   $( ".ciclosubLine" ).animate({"background-position": "-65px"},100);
+					    // $( ".ciclo" ).text( ++i );
+					  });
+
+				$( ".netbeans" )
+					  .mouseover(function() {
+					    $( ".cicloNetbeans" ).animate({"background-position": "0px"},100 );
+					  })
+					  .mouseout(function() {
+					   $( ".cicloNetbeans" ).animate({"background-position": "-65px"},100);
+					    // $( ".ciclo" ).text( ++i );
+					  });
+
+			    $( ".dream" )
+					  .mouseover(function() {
+					    $( ".cicloDream" ).animate({"background-position": "0px"},100 );
+					  })
+					  .mouseout(function() {
+					   $( ".cicloDream" ).animate({"background-position": "-65px"},100);
+					    // $( ".ciclo" ).text( ++i );
+					  });
+
+				$( ".dream" )
+					  .mouseover(function() {
+					    $( ".cicloDream" ).animate({"background-position": "0px"},100 );
+					  })
+					  .mouseout(function() {
+					   $( ".cicloDream" ).animate({"background-position": "-65px"},100);
+					    // $( ".ciclo" ).text( ++i );
+					  });
+
+                $( ".github" )
+					  .mouseover(function() {
+					    $( ".cicloGithub" ).animate({"background-position": "0px"},100 );
+					  })
+					  .mouseout(function() {
+					   $( ".cicloGithub" ).animate({"background-position": "-65px"},100);
+					    // $( ".ciclo" ).text( ++i );
+					  });
+
+				$( ".sourceT" )
+					  .mouseover(function() {
+					    $( ".cicloSourceT" ).animate({"background-position": "0px"},100 );
+					  })
+					  .mouseout(function() {
+					   $( ".cicloSourceT" ).animate({"background-position": "-65px"},100);
+					    // $( ".ciclo" ).text( ++i );
+					  });
+
+				$( ".Word" )
+					  .mouseover(function() {
+					    $( ".cicloWord" ).animate({"background-position": "0px"},100 );
+					  })
+					  .mouseout(function() {
+					   $( ".cicloWord" ).animate({"background-position": "-65px"},100);
+					    // $( ".ciclo" ).text( ++i );
+					  });
+
+				$( ".excel" )
+					  .mouseover(function() {
+					    $( ".cicloExcel" ).animate({"background-position": "0px"},100 );
+					  })
+					  .mouseout(function() {
+					   $( ".cicloExcel" ).animate({"background-position": "-65px"},100);
+					    // $( ".ciclo" ).text( ++i );
+					  });
+
+				$( ".point" )
+					  .mouseover(function() {
+					    $( ".cicloPoint" ).animate({"background-position": "0px"},100 );
+					  })
+					  .mouseout(function() {
+					   $( ".cicloPoint" ).animate({"background-position": "-65px"},100);
+					    // $( ".ciclo" ).text( ++i );
+					  });
+
+			    $( ".outlook" )
+					  .mouseover(function() {
+					    $( ".cicloOutlook" ).animate({"background-position": "0px"},100 );
+					  })
+					  .mouseout(function() {
+					   $( ".cicloOutlook" ).animate({"background-position": "-65px"},100);
+					    // $( ".ciclo" ).text( ++i );
+					  });
+
+			    $( ".idEspañol" )
+					  .mouseover(function() {
+					    $( ".cicloIdEspañol" ).animate({"background-position": "0px"},100 );
+					  })
+					  .mouseout(function() {
+					   $( ".cicloIdEspañol" ).animate({"background-position": "-65px"},100);
+					    // $( ".ciclo" ).text( ++i );
+					  });
+
+				 $( ".idIngles" )
+					  .mouseover(function() {
+					    $( ".cicloidIngles" ).animate({"background-position": "0px"},100 );
+					  })
+					  .mouseout(function() {
+					   $( ".cicloidIngles" ).animate({"background-position": "-65px"},100);
+					    // $( ".ciclo" ).text( ++i );
+					  });
+
+				$( ".idRumano" )
+					  .mouseover(function() {
+					    $( ".cicloIdRumano" ).animate({"background-position": "0px"},100 );
+					  })
+					  .mouseout(function() {
+					   $( ".cicloIdRumano" ).animate({"background-position": "-65px"},100);
+					    // $( ".ciclo" ).text( ++i );
+					  });
+
+
+
+
+
+
                 });
 
   

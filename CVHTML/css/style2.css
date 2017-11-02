@@ -148,7 +148,7 @@ h2{
 .ciclo{
     background: url(../img/bg-2.jpg);
     background-repeat: no-repeat;
-    background-position-x: -115px;
+    background-position: -65px;
     text-align: center;
     transition: 2s all;
     background-size: cover;
@@ -171,6 +171,7 @@ h2{
 .bold:hover{
   cursor: pointer;
   opacity: .5;
+ /* padding-left: 15px;*/
 }
 .footer{
   
