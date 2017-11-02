@@ -18,91 +18,42 @@
 <body style="background-color: #444242;">
 
 
-<div class="container">
- 
-
-  <!-- <div class="slider">
-    <div> <img  src="img/frezie.jpg" /></div>
-    <div> <img  src="img/candado.jpg" /></div>
-    <div> <img  src="img/candado.jpg" /></div>
-    <div> <img  src="img/candado.jpg" /></div>
-    <div> <img  src="img/tablet.jpg" /></div>
-    <div> <img  src="img/plumas.jpg" /></div>
-
-  </div> -->
-
-  <div class="col-lg-12 " style="width: 100%;
-    overflow: hidden;
-    border-radius: 5px;
-   /* box-shadow: 1px 1px 4px #666;
-    background-image: url(img/picasion.gif);
-    background-size: cover;
-    background-repeat: no-repeat;*/
-   background-position: bottom;">
-
-   <div class="carrusel">
-	   	<img id="img1" class="imagen" src="img/bombilla.jpg"/>
-	   	<img id="img2" class="imagen" src="img/candado.jpg"/>
-	   	<img id="img3" class="imagen imagenPrev" src="img/frezie.jpg"/>
-	   	<img id="img4" class="imagen" src="img/imagen.jpg"/>
-	   	<img id="img5" class="imagen" src="img/orquidea.jpg"/>
-	   	<img id="img6" class="imagen" src="img/picasion.gif"/>
-	   	<img id="img7" class="imagen" src="img/plumas.jpg"/>
-   </div>
- <!-- .carrusel -->
+  <div class="container">
    
-   <div class="">
-	    <div class="bolitas-radio">
-				  <input checked type=radio name="slider" id="slide1"/>
-				  <input type=radio name="slider" id="slide2" />
-				  <input type=radio name="slider" onclick="imgClick3()" id="slide3" />
-				  <input type=radio name="slider" id="slide4" />
-				  <input type=radio name="slider" id="slide5" />
-				  <input type=radio name="slider" id="slide6"/>
-				   <input type=radio name="slider" id="slide7"/>
-			</div>
-	</div>
-
-
-     <div class="prew flecha">></div>
-     <div class="forw flecha"><</div>
-    <!-- .bolitas -->
-
+    <div class="col-lg-12 " style="width: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+            height: 0px;
+       background-position: bottom;">
+      </div>
   </div>
-  <!-- .slider-wrapper -->
 
- 
-  <div class="slider-prev-next-control">
-    <label for=slide1></label>
-    <label for=slide2></label>
-    <label for=slide3></label>
-    <label for=slide4></label>
-    <label for=slide5></label>
+  <div class="carosel container" id="carosel1">
+      <a class="carosel-control carosel-control-left glyphicon glyphicon-chevron-left" href="#"></a>
+      <div class="carosel-inner">
+        <img class="carosel-item" src="img/plumas.jpg" />
+        <img class="carosel-item" src="img/picasion.gif" />
+        <img class="carosel-item" src="img/candado.jpg" />
+        <img class="carosel-item" src="img/imagen.jpg" />
+        <img class="carosel-item" src="img/frezie.jpg" />
+        <img class="carosel-item" src="img/orquidea.jpg" />
   </div>
-  <!-- .slider-prev-next-control -->
+    <a class="carosel-control carosel-control-right glyphicon glyphicon-chevron-right" href="#"></a>
 
-  <div class="slider-dot-control">
-    <label for=slide1></label>
-    <label for=slide2></label>
-    <label for=slide3></label>
-    <label for=slide4></label>
-    <label for=slide5></label>
+
+  <div class="bootom-rdio">
+      <input checked type=radio name="slider" id="slide1" />
+      <input type=radio name="slider" class="slider" id="slide2" />
+      <input type=radio name="slider" class="slider" id="slide3" />
+      <input type=radio name="slider" class="slider" id="slide4" />
+      <input type=radio name="slider" class="slider" id="slide5" />
   </div>
-  <!-- .slider-dot-control -->
 </div>
 
 
-<!-- <div class="bootom-rdio">
- <input checked type=radio name="slider" id="slide1" />
-  <input type=radio name="slider" id="slide2" />
-  <input type=radio name="slider" id="slide3" />
-  <input type=radio name="slider" id="slide4" />
-  <input type=radio name="slider" id="slide5" />
-</div> -->
 
 
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/carrusel.js"></script>
 </body>
 </html>
