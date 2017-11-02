@@ -6,7 +6,7 @@ $(document).ready(function(){
 		
 		var name = $("#username").val();
 		var email = $("#email").val();
-		var numberPhone = $("#pw").val();
+		var numberPhone = $("#phone").val();
 		var isValid;
 		var has_letters;
 		var has_numbers;
@@ -17,7 +17,7 @@ $(document).ready(function(){
 
 		var size = name.length;
 
-		if ( size >= 5){
+		if ( size  >= 5){
 			size_correct = true;
 			$("#msg_validation1").html("");
 		} else {
@@ -28,22 +28,22 @@ $(document).ready(function(){
 		}
 		
 
-		if ( phoneNumber == 9) {
+		if ( numberPhone == 9) {
 			has_numbers = true;
 			$("#msg_validationPhone").html("El numero no es valido");
 			console.log(numeros + " no_numbers")
 		} else {
 			has_numbers = false;
 			$("#msg_validationPhone").html("");
-			console.log(has_numbers + " tiene_numbers")
+			console.log(has_numbers + " has_numbers")
 		}
 
 
-		if (size_correct == true && has_letters == true && has_numbers == true){
-			$("#msg_validation1").html("");
-		} else {
-			$("#msg_validation1").html("El username debe contener al menos 5 letras.");
-		}
+		// if (size_correct == true && has_letters == true && has_numbers == true){
+		// 	$("#msg_validation1").html("");
+		// } else {
+		// 	$("#msg_validation1").html("El username debe contener al menos 5 letras.");
+		// }
 
 
 		var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -54,6 +54,29 @@ $(document).ready(function(){
         	$("#msg_validation2").html("");
         }
         
+        var passWord = /^(([^<>()\[\]\\.,;:\s"]+(\.[^<>()\[\]\\.,;:\s"]+)*)|(".+"))((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    	var pass = $("#pw").val();
+
+    	if (passWord.test(pw) == false) {
+           	$(".clases").removeClass("repitPass ");
+           	console.log( pass + " añade div")
+        }
+
+        var pwAppend = $("#pwAppend").val();
+        var pass = $("#pw").val();
+
+        if (pwAppend != pass) {
+        	$("#pwAppend").append("<div class='mostrando-letras'></div>").html(pwAppend);
+        	
+           	console.log(pwAppend + " añade div mostrando letras")
+        }else{
+        	$(".classe2").removeClass("repitPass ").html(pass);
+        }
+
+
+
+
+
 
      //    var numberPhone = $("#pw").val();
      //    var res = "";

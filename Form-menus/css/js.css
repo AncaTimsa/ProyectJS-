@@ -107,3 +107,10 @@ header{
 	height: 40px;
 
 }
+.repitPass{
+    display: none;
+}
+
+.form-control{
+ border: 1px solid #ccc;
+}
