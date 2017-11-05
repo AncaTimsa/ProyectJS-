@@ -42,11 +42,11 @@ $(document).ready(function(){
 		}
 
 
-		if (size_correct == true && has_letters == true && has_numbers == true){
-			$("#msg_validation1").html("");
-		} else {
-			$("#msg_validation1").html("El username debe contener al menos 5 letras.");
-		}
+		// if (size_correct == true && has_letters == true && has_numbers == true){
+		// 	$("#msg_validation1").html("");
+		// } else {
+		// 	$("#msg_validation1").html("El username debe contener al menos 5 letras.");
+		// }
 
 
 		var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -61,7 +61,7 @@ $(document).ready(function(){
      //    var numberPhone = $("#pw").val();
      //    var res = "";
      //     res = res + isNaN(123); 
-
+     
 	    // if (res.test(numberPhone) = false) {
 	    // 	$("#msg_validationPhone").html("El numero es verdadero ");
 	    // 	console.log("gfgfg")

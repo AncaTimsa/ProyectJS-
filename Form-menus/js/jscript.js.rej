@@ -1,0 +1,31 @@
+diff a/Form-menus/js/jscript.js b/Form-menus/js/jscript.js	(rejected hunks)
+@@ -54,6 +54,29 @@
+         	$("#msg_validation2").html("");
+         }
+         
++        var passWord = /^(([^<>()\[\]\\.,;:\s"]+(\.[^<>()\[\]\\.,;:\s"]+)*)|(".+"))((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
++    	var pass = $("#pw").val();
++
++    	if (passWord.test(pw) == false) {
++           	$(".clases").removeClass("repitPass ");
++           	console.log( pass + " añade div")
++        }
++
++        var pwAppend = $("#pwAppend").val();
++        var pass = $("#pw").val();
++
++        if (pwAppend != pass) {
++        	$("#pwAppend").append("<div class='mostrando-letras'></div>").html(pwAppend);
++        	
++           	console.log(pwAppend + " añade div mostrando letras")
++        }else{
++        	$(".classe2").removeClass("repitPass ").html(pass);
++        }
++
++
++
++
++
+ 
+      //    var numberPhone = $("#pw").val();
+      //    var res = "";

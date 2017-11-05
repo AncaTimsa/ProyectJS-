@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+
+<script>
+
+function suma(){
+
+	var valor1 = $("#operando1").val();
+	var valor2 = $("#operando2").val();
+
+	var resultado = parseInt(valor1) + parseInt(valor2);
+
+	console.log(resultado)
+}
+
+
+function multiplicar(){
+
+	var valor1 = $("#operando1").val();
+	var valor2 = $("#operando2").val();
+
+	var resultado = parseInt(valor1) * parseInt(valor2);
+
+	console.log(resultado)
+}
+
+
+function restar(){
+
+	var valor1 = $("#operando1").val();
+	var valor2 = $("#operando2").val();
+
+	var resultado = parseInt(valor1) - parseInt(valor2);
+
+	console.log(resultado)
+}
+
+
+
+function ejecutar(operacion){
+
+	var valor1 = $("#operando1").val();
+	var valor2 = $("#operando2").val();
+
+	if (operacion == 'SUMA'){
+		var resultado = parseInt(valor1) + parseInt(valor2);
+	}
+
+	if (operacion == 'RESTA') {
+		var resultado = parseInt(valor1) - parseInt(valor2);
+	}
+
+	if (operacion == 'MULTI') {
+		var resultado = parseInt(valor1) * parseInt(valor2);
+
+	}
+
+	
+	console.log(resultado)
+}
+
+</script>
+
+<input type="numer" id="operando1">
+<input type="numer" id="operando2">
+<button id="boton_suma" onclick="ejecutar('SUMA')">ejecutar suma</button>
+<button id="boton_resta" onclick="ejecutar('RESTA')">ejecutar resta</button>
+<button id="boton_multi" onclick="ejecutar('MULTI')">ejecutar multi</button>
+
+</body>
+</html>

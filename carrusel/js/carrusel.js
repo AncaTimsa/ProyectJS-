@@ -1,10 +1,6 @@
 
 
 
- // $(document).ready(function(){
- //      $('.slider').bxSlider();
- //    });
-
 $( document ).ready(function() {
 
 	$("#slide1").click(function(){
